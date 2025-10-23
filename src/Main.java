@@ -1,4 +1,7 @@
-abstract class Human {
+interface Workable {
+    void work();
+}
+abstract class Human implements Workable{
 
     private String name;
     private int age;
